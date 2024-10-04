@@ -8,6 +8,7 @@
     background-color: white;
     height: 100%;
     
+    
 }
 
 #datosPantalla{  
@@ -29,6 +30,10 @@ nav{
     margin-right: 0;
 }
 
+*{
+    font-size: 14pt;
+}
+
 .card {
 
     width: 15%;
@@ -37,6 +42,28 @@ nav{
 .card-img-top {
 
     position:relative;
-    left: 35%;
-    bottom: 58px;
+    left: 10%;
+    bottom: 140px;
+}
+
+.planta{
+
+    background-color: #54DF6D;
+    border-radius: 15px;
+}
+
+.veneno {
+
+    background-color: #B78FE1;
+    border-radius: 15px;
+}
+.card-body{
+
+    position: relative;
+
+    bottom: 20px;
+}
+.h5{
+
+    font-weight: 100;
 }
