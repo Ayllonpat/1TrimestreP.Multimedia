@@ -1,0 +1,21 @@
+#bordePokedex{
+    background-color: rgb(226, 222, 222);
+    height: 100%;
+    position: fixed;
+}
+
+#pantallaPokedex{
+    background-color: white;
+    height: 100%;
+    
+}
+
+#datosPantalla{  
+    
+   
+}
+
+#flecha{
+    color: black;
+    
+}
