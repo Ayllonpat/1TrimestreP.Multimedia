@@ -12,10 +12,31 @@
 
 #datosPantalla{  
     
-   
+    padding-bottom: 5;
 }
 
 #flecha{
     color: black;
     
+}
+
+nav{
+    
+}
+
+#ordenarPor{
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.card {
+
+    width: 15%;
+}
+
+.card-img-top {
+
+    position:relative;
+    left: 35%;
+    bottom: 58px;
 }

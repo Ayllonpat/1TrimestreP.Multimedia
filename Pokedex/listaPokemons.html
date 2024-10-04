@@ -12,33 +12,50 @@
   </head>
   <body class="h-100">
     
-    <div id="bordePokedex" class="h-100 p-5 d-flex">
-      <div id="pantallaPokedex">
-        <img src="imgs/cabecera.png" class="w-100">
-        <div id="datosPantalla" class="w-100 h-100 p-4 row">
-          <div class="w-100 d-flex row">
-            
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left col" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
-            </svg>
-            
-            <div class="dropdown col d-flex">
-              <h3>Ordenar por:</h3>
-              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
-              <span class="caret"></span></button>
-              <ul class="dropdown-menu">
-                <li><a href="#">Tipo</a></li>
-                <li><a href="#">Habilidad</a></li>
-                <li><a href="#">Número</a></li>
-              </ul>
+    <div id="bordePokedex" class="h-100 p-5 d-flex w-100">
+      <div id="pantallaPokedex" class="w-100">
+        <header>
+          <img src="imgs/cabecera.png" class="w-100">
+          <div id="datosPantalla" class="w-100 p-4 row">
+            <div id="nav" class="nav-bar w-100 d-flex">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+              </svg>
+              <div id="ordenarPor" class="d-flex">
+                <p class="p-2">Ordenar por:</p>
+                <div class="dropdown">
+                  <button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown">Tipo
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Tipo</a></li>
+                    <li><a href="#">Habilidad</a></li>
+                    <li><a href="#">Número</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
+        </header>
+        <main class="row p-5 justify-content-around">
 
-          <p class="p-5 row">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque quo est aliquid voluptates earum, vero molestias. Quisquam repellendus reprehenderit inventore sapiente nulla nihil aut, ab molestiae libero doloribus asperiores iste.
-          </p>
+            <div class="card col-12 col-xl-10 my-5 mx-xl-1 border-danger">
+              <img class="card-img-top mx-2 my-3 w-25" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" />
+            </div>
+            <div class="card col-12 col-xl-10 my-5 mx-xl-1 border-danger">  
+              <img class="card-img-top mx-2 my-3 w-25" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" />
+            </div>
+            <div class="card col-12 col-xl-6 my-5 mx-xl-1 border-danger">
+              <img class="card-img-top mx-2 my-3 w-25" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" />
+            </div>
+            <div class="card col-12 col-xl-10 my-5 mx-xl-1 border-danger">
+              <img class="card-img-top mx-2 my-3 w-25" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" />
+            </div>
+            <div class="card col-12 col-xl-10 my-5 mx-xl-1 border-danger">
+              <img class="card-img-top mx-2 my-3 w-25" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" />
+            </div>
 
-        </div>
+        </main>
       </div>
     </div>
     
